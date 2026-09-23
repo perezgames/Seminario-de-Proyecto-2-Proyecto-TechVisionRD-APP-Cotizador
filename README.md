@@ -9,3 +9,5 @@ Logo app Movil
 
 <img width="500" height="500" alt="logo_combinado" src="https://github.com/user-attachments/assets/1c727cf7-ac3c-4715-8d74-9e222d38f93d" />
 
+
+

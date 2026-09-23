@@ -5,5 +5,5 @@ Logo WEB
 <img width="900" height="290" alt="logo" src="https://github.com/user-attachments/assets/f708cff8-3414-4478-9530-6e3231cccbfa" />
 
 Logo app Movil
-<img width="1024" height="1024" alt="logo_combinado" src="https://github.com/user-attachments/assets/1c727cf7-ac3c-4715-8d74-9e222d38f93d" />
+<img width="900" height="290" alt="logo_combinado" src="https://github.com/user-attachments/assets/1c727cf7-ac3c-4715-8d74-9e222d38f93d" />
 

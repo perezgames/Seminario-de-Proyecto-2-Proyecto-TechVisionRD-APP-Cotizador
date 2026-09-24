@@ -37,15 +37,11 @@ La app cuenta con 4 pantallas principales, accesibles por navegación de pestañ
 ### Capturas de pantalla
 
 <p align="center">
-  <img src="./screenshots/inicio.jpeg" width="23%" alt="Pantalla de Inicio" />
-  <img src="./screenshots/servicios.jpeg" width="23%" alt="Pantalla de Servicios" />
-  <img src="./screenshots/cotizador.jpeg" width="23%" alt="Pantalla de Cotizador" />
-  <img src="./screenshots/nosotros.jpeg" width="23%" alt="Pantalla de Nosotros" />
-</p>
-<img width="774" height="300" alt="inicio" src="https://github.com/user-attachments/assets/91f35fa7-ab55-4b33-b8c7-8a951d0c0887" />
-<img width="766" height="300" alt="servicios" src="https://github.com/user-attachments/assets/8e886e87-aff5-4001-ab9a-48f60f101f2c" />
-<img width="772" height="300" alt="cotizador" src="https://github.com/user-attachments/assets/04593969-dd0f-43a0-a73f-ddba95dd17a7" />
-<img width="776" height="300" alt="nosotros" src="https://github.com/user-attachments/assets/99c8cd8c-7aaa-4d48-8c82-818c6f98106a" />
+  
+<img width="300" height="300" alt="inicio" src="https://github.com/user-attachments/assets/91f35fa7-ab55-4b33-b8c7-8a951d0c0887" />
+<img width="300" height="300" alt="servicios" src="https://github.com/user-attachments/assets/8e886e87-aff5-4001-ab9a-48f60f101f2c" />
+<img width="300" height="300" alt="cotizador" src="https://github.com/user-attachments/assets/04593969-dd0f-43a0-a73f-ddba95dd17a7" />
+<img width="300" height="300" alt="nosotros" src="https://github.com/user-attachments/assets/99c8cd8c-7aaa-4d48-8c82-818c6f98106a" />
 
 <p align="center">
   <img src="./screenshots/desglose.jpeg" width="40%" alt="Desglose detallado del Cotizador" />

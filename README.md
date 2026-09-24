@@ -38,10 +38,10 @@ La app cuenta con 4 pantallas principales, accesibles por navegación de pestañ
 
 <p align="center">
   
-<img width="300" height="300" alt="inicio" src="https://github.com/user-attachments/assets/91f35fa7-ab55-4b33-b8c7-8a951d0c0887" />
-<img width="300" height="300" alt="servicios" src="https://github.com/user-attachments/assets/8e886e87-aff5-4001-ab9a-48f60f101f2c" />
-<img width="300" height="300" alt="cotizador" src="https://github.com/user-attachments/assets/04593969-dd0f-43a0-a73f-ddba95dd17a7" />
-<img width="300" height="300" alt="nosotros" src="https://github.com/user-attachments/assets/99c8cd8c-7aaa-4d48-8c82-818c6f98106a" />
+<img width="300" height="320" alt="inicio" src="https://github.com/user-attachments/assets/91f35fa7-ab55-4b33-b8c7-8a951d0c0887" />
+<img width="300" height="320" alt="servicios" src="https://github.com/user-attachments/assets/8e886e87-aff5-4001-ab9a-48f60f101f2c" />
+<img width="300" height="320" alt="cotizador" src="https://github.com/user-attachments/assets/04593969-dd0f-43a0-a73f-ddba95dd17a7" />
+<img width="300" height="320" alt="nosotros" src="https://github.com/user-attachments/assets/99c8cd8c-7aaa-4d48-8c82-818c6f98106a" />
 
 <p align="center">
 <img width="300" height="320" alt="WhatsApp Image 2026-09-23 at 6 59 05 PM (1)" src="https://github.com/user-attachments/assets/44f8c13f-5e5e-48c9-9091-95160402db4b" />

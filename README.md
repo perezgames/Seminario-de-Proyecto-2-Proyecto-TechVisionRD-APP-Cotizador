@@ -1,16 +1,142 @@
-# Seminario-de-Proyecto-2-Proyecto-TechVisionRD-APP-Cotizador
-TechVisionRD App Cotizador — App móvil complementaria de TechVision RD (React Native + Expo Router). Simula presupuestos de proyectos de software de forma interactiva con parámetros ajustables, y presenta servicios, equipo y contacto directo por WhatsApp. Proyecto — Seminario de Proyecto II, UAPA Agosto-Octubre 2026.
+<p align="center">
+  <img src="./screenshots/logo-web.png" width="45%" alt="TechVision RD - Sitio web" />
+  <img src="./screenshots/logo-app.png" width="45%" alt="TechVisionRD APP Cotizador" />
+</p>
 
-Logo WEB
+<h1 align="center">TechVisionRD APP Cotizador</h1>
 
-<img width="900" height="290" alt="logo" src="https://github.com/user-attachments/assets/f708cff8-3414-4478-9530-6e3231cccbfa" />
+<p align="center">
+  Aplicación móvil de cotización interactiva para <strong>TechVision RD</strong>, plataforma de transformación digital para PyMEs dominicanas.
+</p>
 
-Logo app Movil
+<p align="center">
+  <em>Seminario de Proyecto II (ISW-411) — Universidad Abierta Para Adultos (UAPA)</em>
+</p>
 
-<img width="500" height="500" alt="logo_combinado" src="https://github.com/user-attachments/assets/1c727cf7-ac3c-4715-8d74-9e222d38f93d" />
+---
 
+## 📋 Descripción del proyecto
 
+Las PyMEs dominicanas frecuentemente no tienen una forma rápida y accesible de estimar el costo de un proyecto de software antes de contactar a un proveedor, lo que genera fricción en la etapa inicial de contacto comercial.
 
-Cotizador app
+**TechVisionRD APP Cotizador** resuelve esto ofreciendo una herramienta móvil que permite a clientes potenciales simular el presupuesto de un proyecto de software de forma interactiva, además de presentar de forma clara los servicios y el equipo de TechVision RD.
 
-<img width="774" height="1600" alt="WhatsApp Image 2026-09-23 at 6 59 04 PM" src="https://github.com/user-attachments/assets/762c43a9-1cf1-442c-b0a6-781c062abcba" />
+Esta app es la continuación móvil del sitio web de TechVision RD, desarrollado en **Seminario de Proyecto I**. No incluye autenticación, base de datos propia, ni conexión al backend de producción del sitio web: el cálculo del presupuesto replica localmente la lógica del simulador `presupuesto.html` del sitio principal.
+
+## ✨ Funcionalidades
+
+La app cuenta con 4 pantallas principales, accesibles por navegación de pestañas:
+
+| Pantalla | Descripción |
+|---|---|
+| 🏠 **Inicio** | Presentación de la marca, resumen de servicios y botón directo al Cotizador |
+| 💼 **Servicios** | Catálogo de servicios (Desarrollo a Medida, Automatización de Procesos, Consultoría Digital), enlace a la web y presentación del equipo |
+| 🧮 **Cotizador** | Simulador interactivo de presupuesto con 7 parámetros ajustables y desglose de costos en tiempo real |
+| 👥 **Nosotros** | Información institucional, datos de contacto y tecnologías utilizadas |
+
+### Capturas de pantalla
+
+<p align="center">
+  <img src="./screenshots/inicio.jpeg" width="23%" alt="Pantalla de Inicio" />
+  <img src="./screenshots/servicios.jpeg" width="23%" alt="Pantalla de Servicios" />
+  <img src="./screenshots/cotizador.jpeg" width="23%" alt="Pantalla de Cotizador" />
+  <img src="./screenshots/nosotros.jpeg" width="23%" alt="Pantalla de Nosotros" />
+</p>
+
+<p align="center">
+  <img src="./screenshots/desglose.jpeg" width="40%" alt="Desglose detallado del Cotizador" />
+</p>
+
+El Cotizador permite ajustar: tarifa del programador, horas de desarrollo, horas de diseño UX/UI, meses de infraestructura cloud, licencias & APIs, horas de pruebas QA y sesiones de capacitación, mostrando el presupuesto estimado y su desglose en tiempo real.
+
+## 🛠️ Tecnologías
+
+- **React Native** — framework principal de la app móvil
+- **Expo (SDK 57)** — entorno de desarrollo, build y pruebas
+- **Expo Router** — navegación basada en archivos
+- **@expo/vector-icons** — iconografía de la interfaz
+- **@react-native-community/slider** — sliders del Cotizador
+
+## 🏗️ Arquitectura
+
+App cliente **standalone**, sin backend propio: toda la lógica del Cotizador corre en el dispositivo (estado local con `useState`), replicando la fórmula de cálculo del sitio web de TechVision RD.
+
+```
+src/
+├── app/            # Rutas de Expo Router
+├── screens/        # Componentes de cada pantalla (Inicio, Servicios, Cotizador, Nosotros)
+└── components/     # Componentes reutilizables (botón flotante de WhatsApp)
+```
+
+## 🚀 Instalación
+
+### Requisitos
+
+- Computadora con Windows, macOS o Linux
+- [Node.js](https://nodejs.org/) (versión LTS) y npm
+- App **Expo Go** instalada en un dispositivo Android o iOS
+- Dispositivo móvil y computadora conectados a la misma red Wi-Fi
+- Firewall configurado para permitir conexiones de Node.js en redes privadas (Windows)
+
+### Pasos
+
+```bash
+# 1. Clonar el repositorio
+git clone https://github.com/perezgames/Seminario-de-Proyecto-2-Proyecto-TechVisionRD-APP-Cotizador.git
+cd Seminario-de-Proyecto-2-Proyecto-TechVisionRD-APP-Cotizador
+
+# 2. Instalar dependencias
+npm install
+npm install @react-navigation/native @react-native-community/slider @expo/vector-icons
+
+# 3. Iniciar el servidor de desarrollo
+npx expo start
+```
+
+Escanea el código QR generado con la app **Expo Go** en tu dispositivo móvil para ver la app en tiempo real.
+
+## 📖 Manual de uso
+
+1. Abrir la app en el dispositivo móvil (Android o iOS)
+2. Navegar entre las pestañas inferiores: Inicio, Servicios, Cotizador y Nosotros
+3. En **Cotizador**, ajustar los sliders según las necesidades del proyecto a estimar
+4. Leer el desglose detallado de costos, actualizado en tiempo real
+5. Contactar al equipo por WhatsApp desde el botón flotante disponible en cualquier pantalla
+6. Visitar el sitio web institucional desde el botón correspondiente en **Servicios**
+
+## 🗄️ Base de datos
+
+Esta fase del proyecto **no implementa una base de datos propia**: es un simulador cuyo alcance es de front-end y presentación, sin backend ni persistencia. Los valores que el usuario ajusta y el presupuesto calculado existen solo en memoria mientras la app está abierta. El detalle del modelo de datos local y la justificación completa están en la documentación técnica del proyecto (`/docs`).
+
+## ⚠️ Limitaciones y mejoras futuras
+
+**Limitaciones actuales:**
+- Sin conexión a base de datos real
+- Sin autenticación de usuarios
+- El Cotizador no envía la cotización generada a ningún sistema, solo la muestra en pantalla
+
+**Mejoras futuras:**
+- Conectar el Cotizador a un backend real para guardar cotizaciones
+- Exportar la cotización a PDF
+- Notificaciones push
+- Panel administrativo para ajustar tarifas sin modificar código
+
+## 👥 Equipo — TechVision RD
+
+| Nombre | Rol |
+|---|---|
+| Ing. Jan Michael Pérez Feliz | Desarrollador |
+| Claurileidy Coronado | Marketing |
+| Joel Pérez | Administración y Finanzas |
+| Daonil Montero | Desarrollo Web |
+
+## 📞 Contacto
+
+- 📱 WhatsApp: +1 (849) 409-3006
+- 📧 Correo: jan9506xx@gmail.com
+- 🎓 Correo institucional: 100059326@p.uapa.edu.do
+- 📍 Santiago de los Caballeros, República Dominicana
+
+---
+
+<p align="center"><em>Proyecto académico — Seminario de Proyecto II (ISW-411), UAPA</em></p>

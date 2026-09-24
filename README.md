@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="./screenshots/logo-web.png" width="45%" alt="TechVision RD - Sitio web" />
-  <img src="./screenshots/logo-app.png" width="45%" alt="TechVisionRD APP Cotizador" />
+<img width="400" height="300" alt="logo" src="https://github.com/user-attachments/assets/117b1be7-6705-4185-a876-94969f419d9a" />
+<img width="400" height="300" alt="logo_combinado" src="https://github.com/user-attachments/assets/b839916b-4c84-4ba7-a560-67b81f49d2c5" />
+
 </p>
 
 <h1 align="center">TechVisionRD APP Cotizador</h1>

@@ -44,7 +44,8 @@ La app cuenta con 4 pantallas principales, accesibles por navegación de pestañ
 <img width="300" height="300" alt="nosotros" src="https://github.com/user-attachments/assets/99c8cd8c-7aaa-4d48-8c82-818c6f98106a" />
 
 <p align="center">
-  <img src="./screenshots/desglose.jpeg" width="40%" alt="Desglose detallado del Cotizador" />
+<img width="300" height="320" alt="WhatsApp Image 2026-09-23 at 6 59 05 PM (1)" src="https://github.com/user-attachments/assets/44f8c13f-5e5e-48c9-9091-95160402db4b" />
+
 </p>
 
 El Cotizador permite ajustar: tarifa del programador, horas de desarrollo, horas de diseño UX/UI, meses de infraestructura cloud, licencias & APIs, horas de pruebas QA y sesiones de capacitación, mostrando el presupuesto estimado y su desglose en tiempo real.

@@ -8,23 +8,15 @@ El sistema permite realizar cotizaciones de proyectos de desarrollo de software 
 
 ## 📱 Vista del sistema
 
-### Inicio
+<p align="center">
+  <img src="docs/screenshots/inicio.png" width="250">
+  <img src="docs/screenshots/cotizador.png" width="250">
+</p>
 
-![Pantalla de Inicio](docs/screenshots/inicio.png)
-
-### Cotizador
-
-![Cotizador](docs/screenshots/cotizador.png)
-
-### Historial
-
-![Historial](docs/screenshots/historial.png)
-
-### Factura
-
-![Factura](docs/screenshots/factura.png)
-
----
+<p align="center">
+  <img src="docs/screenshots/historial.png" width="250">
+  <img src="docs/screenshots/factura.png" width="250">
+</p>
 
 ## 🚀 Funcionalidades
 

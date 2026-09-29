@@ -5,18 +5,18 @@ Aplicación móvil desarrollada para **TechVision RD** como proyecto de implemen
 El sistema permite realizar cotizaciones de proyectos de desarrollo de software mediante diferentes parámetros, almacenar las cotizaciones realizadas y generar documentos de cotización en formato PDF.
 
 ---
-
-## 📱 Vista del sistema
+## 📱 Capturas del sistema
 
 <p align="center">
-  <img src="docs/screenshots/inicio.png" width="250">
-  <img src="docs/screenshots/cotizador.png" width="250">
+  <img src="docs/screenshots/inicio.png" width="220">
+  <img src="docs/screenshots/cotizador.png" width="220">
 </p>
 
 <p align="center">
-  <img src="docs/screenshots/historial.png" width="250">
-  <img src="docs/screenshots/factura.png" width="250">
+  <img src="docs/screenshots/historial.png" width="220">
+  <img src="docs/screenshots/factura.png" width="220">
 </p>
+
 
 ## 🚀 Funcionalidades
 

@@ -14,7 +14,7 @@ El sistema permite realizar cotizaciones de proyectos de desarrollo de software 
 
 <p align="center">
   <img src="docs/screenshots/historial.png" width="220">
-  <img src="docs/screenshots/factura.png" width="220">
+  <img src="docs/screenshots/factura.png" width="250">
 </p>
 
 

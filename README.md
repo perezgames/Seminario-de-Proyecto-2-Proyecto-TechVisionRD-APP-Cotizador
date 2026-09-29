@@ -1,56 +1,204 @@
-# Welcome to your Expo app 👋
+# TechVisionRD App Cotizador
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicación móvil desarrollada para **TechVision RD** como proyecto de implementación de software.
 
-## Get started
+El sistema permite realizar cotizaciones de proyectos de desarrollo de software mediante diferentes parámetros, almacenar las cotizaciones realizadas y generar documentos de cotización en formato PDF.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 📱 Vista del sistema
 
-2. Start the app
+### Inicio
 
-   ```bash
-   npx expo start
-   ```
+![Pantalla de Inicio](docs/screenshots/inicio.png)
 
-In the output, you'll find options to open the app in a
+### Cotizador
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+![Cotizador](docs/screenshots/cotizador.png)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Historial
 
-## Get a fresh project
+![Historial](docs/screenshots/historial.png)
 
-When you're ready, run:
+### Factura
 
-```bash
-npm run reset-project
+![Factura](docs/screenshots/factura.png)
+
+---
+
+## 🚀 Funcionalidades
+
+- 🏠 **Inicio:** presentación de TechVision RD y del sistema.
+- 💰 **Cotizador:** cálculo automático del presupuesto del proyecto.
+- 📊 **Desglose de costos:** visualización detallada de los diferentes servicios.
+- 💾 **Persistencia local:** almacenamiento de cotizaciones mediante SQLite.
+- 📋 **Historial:** consulta de cotizaciones guardadas.
+- 🗑️ **Eliminación:** eliminación de cotizaciones almacenadas.
+- 🧾 **Generación de factura:** creación de documentos de cotización en formato PDF.
+- 💬 **Contacto:** acceso directo mediante WhatsApp.
+
+---
+
+## 🧮 Parámetros del cotizador
+
+El usuario puede modificar los siguientes parámetros:
+
+| Parámetro | Descripción |
+|---|---|
+| Tarifa del programador | Valor por hora de desarrollo |
+| Horas de desarrollo | Tiempo estimado de programación |
+| Horas de diseño UX/UI | Tiempo destinado al diseño |
+| Infraestructura Cloud | Cantidad de meses |
+| Licencias & APIs | Costo mensual estimado |
+| Horas de pruebas QA | Tiempo destinado al control de calidad |
+| Sesiones de capacitación | Cantidad de sesiones |
+
+El sistema recalcula automáticamente el presupuesto a medida que el usuario modifica los valores.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+| Tecnología | Uso |
+|---|---|
+| **React Native** | Desarrollo de la aplicación móvil |
+| **Expo SDK 57** | Plataforma de desarrollo y compilación |
+| **Expo Router** | Navegación entre pantallas |
+| **JavaScript** | Lógica de la aplicación |
+| **SQLite** | Persistencia local de las cotizaciones |
+| **Expo Print** | Generación de documentos PDF |
+| **React Native Slider** | Controles del cotizador |
+| **Expo Vector Icons** | Iconografía de la aplicación |
+| **EAS Build** | Generación de la aplicación Android |
+
+---
+
+## 🗄️ Base de datos
+
+La aplicación utiliza **SQLite** para almacenar localmente las cotizaciones realizadas por el usuario.
+
+Cada registro conserva información como:
+
+- Cliente o proyecto.
+- Tarifa del programador.
+- Horas de desarrollo.
+- Horas de diseño.
+- Meses de infraestructura.
+- Licencias y APIs.
+- Horas de QA.
+- Sesiones de capacitación.
+- Total de la cotización.
+- Fecha de creación.
+
+---
+
+## 📂 Estructura del proyecto
+
+```text
+techvision-app/
+│
+├── assets/
+│   ├── 1logo.png
+│   └── ...
+│
+├── db/
+│   └── database.js
+│
+├── docs/
+│   └── screenshots/
+│       ├── inicio.png
+│       ├── cotizador.png
+│       ├── historial.png
+│       └── factura.png
+│
+├── screens/
+│   ├── CotizadorScreen.js
+│   ├── HistorialScreen.js
+│   ├── InicioScreen.js
+│   ├── NosotrosScreen.js
+│   └── ServiciosScreen.js
+│
+├── src/
+│   ├── app/
+│   ├── components/
+│   ├── constants/
+│   └── hooks/
+│
+├── app.json
+├── eas.json
+├── metro.config.js
+├── package.json
+├── package-lock.json
+└── tsconfig.json
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-### Other setup steps
+## ⚙️ Instalación y ejecución
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+### Requisitos
 
-## Learn more
+- [Node.js](https://nodejs.org/)
+- npm
+- Expo
+- Expo Go para pruebas en Android
 
-To learn more about developing your project with Expo, look at the following resources:
+### 1. Clonar el repositorio
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+git clone https://github.com/perezgames/Seminario-de-Proyecto-2-Proyecto-TechVisionRD-APP-Cotizador.git
+```
 
-## Join the community
+### 2. Entrar al proyecto
 
-Join our community of developers creating universal apps.
+```bash
+cd Seminario-de-Proyecto-2-Proyecto-TechVisionRD-APP-Cotizador
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 3. Instalar dependencias
+
+```bash
+npm install
+```
+
+### 4. Iniciar Expo
+
+```bash
+npx expo start
+```
+
+Para ejecutar directamente en Android:
+
+```bash
+npx expo start --android
+```
+
+---
+
+## 📦 Aplicación Android
+
+La versión compilada para Android está disponible en la sección **Releases** de este repositorio.
+
+### Descargar APK
+
+**[⬇️ Descargar TechVisionRD App Cotizador](../../releases/latest)**
+
+---
+
+## 🎓 Proyecto universitario
+
+**Seminario de Proyecto II**
+
+Proyecto desarrollado como parte del proceso de implementación y puesta en funcionamiento de una solución de software para **TechVision RD**.
+
+### TechVision RD
+
+> Soluciones de software orientadas a las necesidades de las empresas y sus proyectos tecnológicos.
+
+---
+
+## 👨‍💻 Estado del proyecto
+
+**Versión:** 1.0.0  
+**Plataforma principal:** Android  
+**Estado:** Implementado y funcional
